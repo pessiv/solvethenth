@@ -1,4 +1,4 @@
-positions=[[1,1,"alive"],[1,0,"alive"],[-1,0,"alive"],[0,-1,"alive"]]
+positions=[[0,1,"alive"],[1,0,"alive"],[-1,0,"alive"],[0,-1,"alive"]]
 newpositions=[]
 turn = 1
 
