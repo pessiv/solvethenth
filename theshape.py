@@ -11,6 +11,7 @@ def detectCollision(position):
     return False
 #TODO: growTheShapeNTimes(n)
 #TODO: countInTheNewPositions()
+#TODO: calculateNewPositions()
 #emptyTheNewPositions()
 def emptyTheNewPositions():
     newpositions.clear()
