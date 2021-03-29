@@ -7,7 +7,7 @@ def detectCollision(position,checkList):
         if position[0] == checkList[i][0] and position[1] == checkList[i][1]:
             checkList[i][2] = "dead"
             return [True,checkList]
-    return False
+    return [False,checkList]
 #TODO: growTheShapeNTimes(n)
 #TODO: countInTheNewPositions()
 #TODO: calculateNewPositions()
