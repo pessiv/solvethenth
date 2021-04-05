@@ -18,6 +18,8 @@ def calculateTheDiagonals(n):
         if n1 % 2 == 0:
             #do nothing
             u=1
+        elif n1 > 25:
+            return 0
         else:
             x0+=1
     return x0
@@ -27,6 +29,8 @@ def calculateTheHorizontals(n):
     for n1 in x:
         if n1 % 2 == 0:
             x0 += 2
+        elif n1 > 25:
+            return 0
     return x0
 #TODO: calculateNewPositions()
 def calculateNewPositions(position):
@@ -46,5 +50,5 @@ def areaOfAnOctagon(n):
 def printStuff(y):
     x = range(y)
     for n in x:
-        print(calculateTheHorizontals(n),calculateTheDiagonals(n),4*calculateTheDiagonals(n),4*calculateTheHorizontals(n))
-print(areaOfAnOctagon(9000000))
+        print(calculateTheHorizontals(n),calculateTheDiagonals(n),4*calculateTheDiagonals(n),4*calculateTheHorizontals(n),areaOfAnOctagon(n))
+printStuff(200)
